@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beli2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:onClick="back"
+                android:id="@+id/imageButton5"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="370dp"
+                android:layout_height="352dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/imagges1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="380dp"
+                    android:layout_marginTop="352dp"
+                    android:background="@color/white"/>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="352dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:text="IPhone XR 128 GB" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="372dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="Deskripsi :"/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="* Chip A12 Bionic"/>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="423dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="* Flash True Tone lebih terang"/>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="447dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="* Memiliki lekungan sudut mengikuti desain"/>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="469dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="* 48 Mp camera utama"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="490dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="* Kamera 12 MP Wide"/>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="510dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="* Penstabilan gambar otomatis"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="531dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="*  Face ID"/>
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="601dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="Harga"/>
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="631dp"
+                    android:layout_marginLeft="9dp"
+                    android:textSize="23dp"
+                    android:textColor="@color/primaryColor"
+                    android:text="Rp.8.000.000"/>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="601dp"
+                    android:layout_marginLeft="180dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="Rating"/>
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="631dp"
+                    android:layout_marginLeft="170dp"
+                    android:textSize="23dp"
+                    android:textColor="@color/primaryColor"
+                    android:text="9.9"/>
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="631dp"
+                    android:text="/10"
+                    android:textColor="@color/SecondaryColor"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="601dp"
+                    android:layout_marginLeft="310dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/SecondaryColor"
+                    android:text="Garansi"/>
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="631dp"
+                    android:layout_marginLeft="300dp"
+                    android:textSize="23dp"
+                    android:textColor="@color/primaryColor"
+                    android:text="1 Tahun"/>
+
+                <Button
+                    android:onClick="krj"
+                    android:id="@+id/button3"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="671dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/primaryColor"
+                    android:textColor="@color/white"
+                    android:text="Tambahkan ke keranjang" />
+
+
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

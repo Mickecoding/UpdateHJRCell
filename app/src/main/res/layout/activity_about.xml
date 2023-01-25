@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="412dp"
+                android:layout_height="60dp"
+                android:background="@color/primaryColor"/>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/primaryColor"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:text="About"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+
+        </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="80dp"
+                app:srcCompat="@drawable/logo"
+                tools:layout_editor_absoluteY="122dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Hijrah Cell sudah berdiri sejak tahun 2020
+                            di jalan sudirman ujung dan juga di jalan delima panam. Oleh seorang anak muda berasal dari duri ia bernama Indra Gusmadi. Toko yang ia rintis ini menjual  berbagai jenis Smartphone baik itu dalam kondisi baru atau bekas dalam kondisi baik yang pastinya sangat update dengan trend hp yang di minati. Selain itu hijrah cell juga menerima konsultasi terkait hp yang di minati supaya konsumen dapat menerima hp dengan keinginan mereka. "
+                tools:layout_editor_absoluteX="21dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+                tools:layout_editor_absoluteY="301dp" />
+
+            <ImageView
+                android:onClick="maps"
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icon" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
